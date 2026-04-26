@@ -42,7 +42,5 @@ AGPL-3.0-or-later. See `LICENSE` and `NOTICE`.
 
 **Patent.** This repository implements a homomorphic regression kernel
 covered by pending application PCT/IB2026/053405. The AGPL grant covers
-source code only and does not grant any patent license. Combining this
-code with an offline `M = (Zᵀ W Z)⁻¹ Zᵀ W` precompute to compute
-encrypted Shapley values may require a separate patent license. See
-`NOTICE`. Inquiries: b@vaultbytes.com.
+source code only and does not grant any patent license. See `NOTICE`.
+Inquiries: b@vaultbytes.com.
