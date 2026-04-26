@@ -133,7 +133,7 @@ def bench_lowrank_recommendation() -> None:
 
 def main() -> None:
     print("BHDR microbenchmark — pure NumPy, no CKKS dependency")
-    print("Paper: https://zenodo.org/records/19556200")
+    print("Paper: https://doi.org/10.5281/zenodo.19791788")
     print()
     bench_rotation_keys()
     bench_matvec_latency()

@@ -7,7 +7,7 @@
 
 Replaces the row-by-row WLS dot-product regression with a Halevi-Shoup diagonal
 matmul accelerated by baby-step/giant-step (BSGS) decomposition. See the
-companion paper (https://zenodo.org/records/19556200) for the full
+companion paper (https://doi.org/10.5281/zenodo.19791788) for the full
 construction, threat model, and benchmark methodology.
 
 Two algorithmic corrections vs a naive Halevi-Shoup spec, discovered during

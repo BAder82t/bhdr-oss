@@ -2,13 +2,17 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 # Patent pending: PCT/IB2026/053405
 
-"""Low-rank M decomposition for BHDR regression.
+"""Low-rank M decomposition for BHDR regression (experimental).
 
-Target: reduce BHDR regression latency from measured ~13.4s (d=50, K=390)
-toward the paper's 3s floor (https://zenodo.org/records/19556200).
+Experimental variant for further reducing the BHDR regression-kernel
+cost. This is NOT the headline deployed BHDR path and does not
+reproduce the paper's end-to-end latency numbers; see the companion
+report at https://doi.org/10.5281/zenodo.19791788 for deployed figures.
+
 Low-rank decomposition of M = U V reduces the d * K' = 50 * 512 = 25,600
 multiplications to (d + K') * r = 562 * r where r = rank(M) is typically
-~20 (confirmed by empirical SVD sweep; M is near-singular by construction).
+~20 (confirmed by empirical SVD sweep; the deployed M is near-singular
+by construction).
 
 Pipeline change: in place of one BSGS matvec over the full M, we run:
     z = V @ y          (r * K')   -- low-rank projection, r << d

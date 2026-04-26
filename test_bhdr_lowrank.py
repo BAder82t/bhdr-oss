@@ -4,7 +4,7 @@
 """Unit tests for the BHDR low-rank (M = U V) variant.
 
 All tests are plaintext / numpy. See companion paper:
-https://zenodo.org/records/19556200
+https://doi.org/10.5281/zenodo.19791788
 """
 from __future__ import annotations
 

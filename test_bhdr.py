@@ -6,7 +6,7 @@
 All tests are plaintext / numpy; none require a CKKS backend. The FHE
 correctness was validated end-to-end against this plaintext oracle
 (Pearson r = 1.00000, max_abs_err 7.9e-12). See the companion paper:
-https://zenodo.org/records/19556200
+https://doi.org/10.5281/zenodo.19791788
 """
 from __future__ import annotations
 

@@ -1,22 +1,25 @@
 BHDR — BSGS-Hoisted Diagonal Regression
 Copyright (C) 2026 Bader Alissaei / VaultBytes Innovations Ltd
 
-This software is licensed under the GNU Affero General Public License v3.0.
-See the LICENSE file for the full license text.
+This software is licensed under the GNU Affero General Public License
+v3.0-or-later. See the LICENSE file for the full license text.
 
-PATENT NOTICE
-=============
 
-This repository implements a homomorphic regression kernel that is the
-subject of pending patent application:
+Patent notice
+-------------
+
+This repository contains software related to pending PCT patent
+application:
 
   PCT/IB2026/053405 — System and Method for Computing Shapley Additive
   Explanations under Fully Homomorphic Encryption Using Compressed
   Coalition Sampling
 
-The AGPL-3.0 grant covers the source code in this repository only. It
-does NOT grant a license under any patent.
+The software is licensed under AGPL-3.0-or-later. No patent rights are
+granted except to the extent, if any, expressly required by the
+applicable software license.
 
 Patent Status: PENDING
 
-Patent / commercial / non-AGPL licensing: b@vaultbytes.com
+Commercial, proprietary, or non-AGPL licensing inquiries:
+  b@vaultbytes.com
