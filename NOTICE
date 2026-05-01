@@ -2,11 +2,26 @@ BHDR — BSGS-Hoisted Diagonal Regression
 Copyright (C) 2026 Bader Alissaei / VaultBytes Innovations Ltd
 
 
-Licensing summary
------------------
+Product
+-------
 
-bhdr-oss is offered under three independent licenses. See LICENSING.md
-for guidance on which one applies to your deployment.
+BHDR is one component of CipherExplain — the encrypted-explainability
+platform from VaultBytes. The deployable product (SaaS, on-prem, OEM)
+is licensed separately under its own commercial terms.
+
+  Product:  https://cipherexplain.com
+
+This repository ships the BHDR regression kernel only, for research,
+reproducibility, and patent-claim disclosure.
+
+
+Kernel licensing summary
+------------------------
+
+bhdr-oss (this repository) is offered under three independent
+licenses. See LICENSING.md for guidance on which one applies to your
+kernel-level deployment. CipherExplain product customers do not need
+to negotiate these separately — the product license covers them.
 
   1. AGPL-3.0-or-later (default, free)
        — covers source code copyright
@@ -51,8 +66,12 @@ Innovations Ltd. AGPL forks may not use the trademarks beyond
 reasonable nominative use ("powered by BHDR").
 
 
-Contact
--------
+Contacts
+--------
 
-Commercial, proprietary, non-AGPL, or patent licensing inquiries:
+Product (CipherExplain SaaS, on-prem, OEM):
+  https://cipherexplain.com
+
+Kernel commercial, proprietary, non-AGPL, or standalone patent
+licensing inquiries:
   b@vaultbytes.com

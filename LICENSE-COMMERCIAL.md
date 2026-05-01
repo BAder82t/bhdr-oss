@@ -1,5 +1,15 @@
 # Commercial License
 
+> **Looking for the CipherExplain product?** Most commercial users
+> want [cipherexplain.com](https://cipherexplain.com), not a kernel
+> license. CipherExplain is the deployable encrypted-SHAP platform
+> that wraps BHDR with OpenFHE bindings, audit envelopes, key
+> handling, and an SDK; its commercial terms are negotiated under its
+> own product license, not under this page. The license below applies
+> only when a customer explicitly wants the BHDR *kernel source* under
+> non-AGPL terms (e.g. to embed it into their own platform without
+> using CipherExplain).
+
 `bhdr-oss` is offered under three independent licenses:
 
 1. **AGPL-3.0-or-later** — the default. See [LICENSE](LICENSE) and
@@ -176,4 +186,5 @@ is confirmed in writing per quote.
 
 ---
 
-Commercial licensing contact: **b@vaultbytes.com**
+Product (CipherExplain SaaS, on-prem, OEM): [cipherexplain.com](https://cipherexplain.com)
+Kernel commercial licensing contact: **b@vaultbytes.com**

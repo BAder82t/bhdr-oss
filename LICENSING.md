@@ -1,5 +1,12 @@
 # Licensing
 
+> **BHDR is one component of [CipherExplain](https://cipherexplain.com).**
+> Most commercial users want the CipherExplain product, not a kernel
+> license — go to [cipherexplain.com](https://cipherexplain.com) for
+> SaaS, on-prem, or OEM terms. The licenses below cover the kernel
+> source code and the underlying patent for the narrow set of cases
+> where someone wants the kernel separately.
+
 `bhdr-oss` is offered under three distinct, complementary licenses.
 Pick the one that matches how you intend to use the kernel.
 
@@ -90,12 +97,18 @@ eligibility, and how to obtain a license.
 
 | Your situation | What you need |
 |---|---|
+| Want a deployable encrypted-SHAP product | [CipherExplain](https://cipherexplain.com) — not a kernel license |
 | Read, fork, run tests, cite the paper | AGPL only |
 | Internal AGPL-compatible deployment, no commercial assertion of method | AGPL only |
-| Closed-source product or non-AGPL SaaS using this source | Commercial license |
+| Closed-source product or non-AGPL SaaS using this kernel source | Commercial license |
 | Clean-room reimplementation of the method, used commercially | Patent license |
 | Closed-source product **plus** clean-room ports of the method | Commercial + Patent license |
 | OEM: embed the method in your platform under your own branding | Commercial + Patent license, typically with field-of-use scope |
+
+CipherExplain customers receive patent coverage and non-AGPL terms as
+part of the product license — they do not separately negotiate
+kernel licenses. The kernel licenses on this page are for users who
+explicitly want the kernel without the product.
 
 When in doubt, contact **b@vaultbytes.com** before you deploy. A short
 written confirmation is free and faster than a retrospective compliance

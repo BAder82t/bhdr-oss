@@ -1,5 +1,13 @@
 # Patent License
 
+> **CipherExplain customers do not need a separate patent license.**
+> The product license at [cipherexplain.com](https://cipherexplain.com)
+> already covers PCT/IB2026/053405 for the licensed deployment. This
+> page applies only to parties who are not CipherExplain customers
+> and who implement the patented method in their own code (clean-room
+> reimplementations, ports to other FHE libraries, hardware
+> accelerators, OEM platforms).
+
 `bhdr-oss` is offered under three independent licenses:
 
 1. **AGPL-3.0-or-later** — covers source code copyright. See
@@ -169,4 +177,5 @@ on request for active proof-of-concept work.
 
 ---
 
-Patent licensing contact: **b@vaultbytes.com**
+Product (CipherExplain — patent rights bundled): [cipherexplain.com](https://cipherexplain.com)
+Standalone patent licensing contact: **b@vaultbytes.com**
