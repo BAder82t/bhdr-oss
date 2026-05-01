@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19791788.svg)](https://doi.org/10.5281/zenodo.19791788)
 ![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-blue.svg)
+![License: Commercial](https://img.shields.io/badge/License-Commercial-green.svg)
+![Patent: PCT%2FIB2026%2F053405](https://img.shields.io/badge/Patent-PCT%2FIB2026%2F053405-orange.svg)
 
 Reference implementation of the **BHDR regression kernel**: a
 BSGS-hoisted diagonal matrix-vector primitive for the encrypted Kernel
@@ -81,11 +83,27 @@ print(np.allclose(phi[:d], M @ y))   # True (to FP precision)
 
 ## License
 
-AGPL-3.0-or-later. See `LICENSE` and `NOTICE`.
+`bhdr-oss` is offered under three independent licenses. Pick the one
+that matches how you intend to use the kernel — see
+[LICENSING.md](LICENSING.md) for guidance.
 
-**Patent notice.** This repository contains software related to pending
-PCT patent application PCT/IB2026/053405. The software is licensed
-under AGPL-3.0-or-later. No patent rights are granted except to the
-extent, if any, expressly required by the applicable software license.
-Commercial, proprietary, or non-AGPL licensing inquiries:
-b@vaultbytes.com.
+| License | Covers | Cost |
+|---|---|---|
+| [AGPL-3.0-or-later](LICENSE) | Source code copyright (default) | Free |
+| [VaultBytes Commercial License](LICENSE-COMMERCIAL.md) | Source code, non-AGPL terms | Paid |
+| [VaultBytes Patent License](LICENSE-PATENT.md) | Method claims of PCT/IB2026/053405 | Paid |
+
+The three licenses are independent. The same Git tags ship to all
+licensees. There is no closed-source build, no feature paywall, and no
+hidden telemetry.
+
+**Patent notice.** This repository contains software related to
+pending PCT patent application **PCT/IB2026/053405**. The AGPL license
+on this repository grants no patent rights except to the minimum
+extent, if any, expressly required by AGPL-3.0 itself. A standalone
+patent license is required for clean-room reimplementations, ports to
+other FHE libraries, hardware accelerators, and OEM embedding. See
+[LICENSE-PATENT.md](LICENSE-PATENT.md).
+
+Commercial, proprietary, non-AGPL, or patent licensing inquiries:
+**b@vaultbytes.com**.

@@ -1,8 +1,26 @@
 BHDR — BSGS-Hoisted Diagonal Regression
 Copyright (C) 2026 Bader Alissaei / VaultBytes Innovations Ltd
 
-This software is licensed under the GNU Affero General Public License
-v3.0-or-later. See the LICENSE file for the full license text.
+
+Licensing summary
+-----------------
+
+bhdr-oss is offered under three independent licenses. See LICENSING.md
+for guidance on which one applies to your deployment.
+
+  1. AGPL-3.0-or-later (default, free)
+       — covers source code copyright
+       — see LICENSE
+  2. VaultBytes Commercial License (paid)
+       — same source code, non-AGPL terms, indemnity, SLA
+       — see LICENSE-COMMERCIAL.md
+  3. VaultBytes Patent License (paid)
+       — license to the method claims of PCT/IB2026/053405,
+         independent of source code
+       — see LICENSE-PATENT.md
+
+There is no closed-source build, no feature paywall, and no telemetry
+hidden in a proprietary fork. The same Git tags ship to all licensees.
 
 
 Patent notice
@@ -15,11 +33,26 @@ application:
   Explanations under Fully Homomorphic Encryption Using Compressed
   Coalition Sampling
 
-The software is licensed under AGPL-3.0-or-later. No patent rights are
-granted except to the extent, if any, expressly required by the
-applicable software license.
+Patent status: PENDING.
 
-Patent Status: PENDING
+The AGPL license on this repository grants no patent rights except to
+the minimum extent, if any, expressly required by AGPL-3.0 §11 itself.
+The VaultBytes Commercial License grants a covenant-not-to-sue scoped
+to the licensed bhdr-oss deployment. A standalone patent license under
+LICENSE-PATENT.md is required for clean-room reimplementations, ports
+to other FHE libraries, hardware accelerators, and OEM embedding.
 
-Commercial, proprietary, or non-AGPL licensing inquiries:
+
+Trademarks
+----------
+
+BHDR, CipherExplain, and VaultBytes are trademarks of VaultBytes
+Innovations Ltd. AGPL forks may not use the trademarks beyond
+reasonable nominative use ("powered by BHDR").
+
+
+Contact
+-------
+
+Commercial, proprietary, non-AGPL, or patent licensing inquiries:
   b@vaultbytes.com
